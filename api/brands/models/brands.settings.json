@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brands",
+  "info": {
+    "name": "brands"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "entityId": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "urlOriginal": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "metaDesc": {
+      "type": "text"
+    },
+    "metaKeywords": {
+      "type": "enumeration",
+      "enum": [
+        "meta"
+      ]
+    },
+    "searchKeywords": {
+      "type": "enumeration",
+      "enum": [
+        "search"
+      ]
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
